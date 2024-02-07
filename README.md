@@ -1,4 +1,4 @@
-# cmseasy V7.7.7.9 20240105 has an arbitrary file deletion vulnerability
+# cmseasy V7.7.7.9 20240105  has an arbitrary file deletion vulnerability
 The affected source code file is lib/admin/template_admin.php, in the editcategorytemplate_action function
 ![屏幕截图 2024-02-08 005713(1)](https://github.com/sec-Kode/cve/assets/46676387/8bd6243b-0274-44d4-834d-45f4f2cb8a53)
 
@@ -13,7 +13,9 @@ There is an operation to delete the template cache, and there is no filtering, s
 First add a 2.php file under the CmsEasy_7.7.7_UTF-8_20240105\cn\template file. Normally, you can only delete /cache/template/'.lang::getistemplate().'/buymodules/'. $module_type.'/'.$module_name.'/#'.$module_id. The spliced ​​php file cannot delete the previous php file.
 <img width="956" alt="屏幕截图 2024-02-08 010700" src="https://github.com/sec-Kode/cve/assets/46676387/2df91ef7-b448-4394-8e2f-1e8b6f77b37b">
 
-Use the following POC
+First log in to the administrator backend, and then use the following POC
+<img width="1280" alt="image" src="https://github.com/sec-Kode/cve/assets/46676387/dc802db9-9eb4-42e3-922e-cd0052b3da46">
+
 POC：
 ```
 POST /index.php?case=template&act=editcategorytemplate&admin_dir=admin HTTP/1.1
