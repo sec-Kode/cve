@@ -13,7 +13,7 @@ There is an operation to delete the template cache, and there is no filtering, s
 First add a 2.php file under the CmsEasy_7.7.7_UTF-8_20240105\cn\template file. Normally, you can only delete /cache/template/'.lang::getistemplate().'/buymodules/'. $module_type.'/'.$module_name.'/#'.$module_id. The spliced ​​php file cannot delete the previous php file.
 <img width="956" alt="屏幕截图 2024-02-08 010700" src="https://github.com/sec-Kode/cve/assets/46676387/2df91ef7-b448-4394-8e2f-1e8b6f77b37b">
 
-First log in to the administrator backend, and then use the following POC
+First log in to the administrator backend (/admin), and then use the following POC
 <img width="1280" alt="image" src="https://github.com/sec-Kode/cve/assets/46676387/dc802db9-9eb4-42e3-922e-cd0052b3da46">
 
 POC：
