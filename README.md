@@ -46,7 +46,8 @@ For the specific process, we can also modify the previous source code and add a 
 The normal deletion path is like this
 <img width="1280" alt="屏幕截图 2024-02-08 011628" src="https://github.com/sec-Kode/cve/assets/46676387/ec49d46c-42b0-4ba7-8fbc-ab059206b8d6">
 
-But how to add ../../ in front of 2 to achieve directory traversal, thereby deleting the 2.php file under CmsEasy_7.7.7_UTF-8_20240105\cn\template
+
+However, if you add ../../ in front of 2, directory traversal will be achieved, thereby deleting the 2.php file under CmsEasy_7.7.7_UTF-8_20240105\cn\template
 <img width="1280" alt="屏幕截图 2024-02-08 012111" src="https://github.com/sec-Kode/cve/assets/46676387/6c52a860-b546-4994-b086-e356cd78be9f">
 <img width="945" alt="屏幕截图 2024-02-08 012236" src="https://github.com/sec-Kode/cve/assets/46676387/269fdfe3-daa0-4258-a1b5-1e11b1652a7e">
 
