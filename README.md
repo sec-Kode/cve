@@ -48,6 +48,12 @@ The normal deletion path is like this
 
 
 However, if you add ../../ in front of 2, directory traversal will be achieved, thereby deleting the 2.php file under CmsEasy_7.7.7_UTF-8_20240105\cn\template
-<img width="1280" alt="屏幕截图 2024-02-08 012111" src="https://github.com/sec-Kode/cve/assets/46676387/6c52a860-b546-4994-b086-e356cd78be9f">
+<img width="1280" alt="屏幕截图 2024-02-08 021335" src="https://github.com/sec-Kode/cve/assets/46676387/888acbe6-7ef9-4a4d-8055-006edf51803d">
+
 <img width="945" alt="屏幕截图 2024-02-08 012236" src="https://github.com/sec-Kode/cve/assets/46676387/269fdfe3-daa0-4258-a1b5-1e11b1652a7e">
+
+Successfully deleted
+
+<img width="1280" alt="屏幕截图 2024-02-08 012111" src="https://github.com/sec-Kode/cve/assets/46676387/6c52a860-b546-4994-b086-e356cd78be9f">
+
 
