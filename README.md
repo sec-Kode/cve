@@ -58,4 +58,4 @@ Successfully deleted
 
 <img width="1280" alt="屏幕截图 2024-02-08 012111" src="https://github.com/sec-Kode/cve/assets/46676387/6c52a860-b546-4994-b086-e356cd78be9f">
 
-
+If the deletion path of the payload is ../../../, the entire website directory will be deleted, causing all directories on the web to be deleted.
